@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+const int Max = 100; // Buffer per fat pointer
+const int CriptoKey = 5; // Indice del cifrario
+
+int main(void) {
+
+	// Calloc: { numero elementi, dimensione di ogni blocco }
+	char *@fat crypt = calloc(Max,sizeof(char));
+	char *@fat dec = calloc(Max,sizeof(char));
+	char *@fat str = calloc(Max,sizeof(char));
+
+	int i=0;
+	
+	char ch;
+	
+	FILE *@notnull pf = (FILE@)fopen("load.txt", "r");
+	if (pf == NULL){
+		return 0;
+	}
+	
+	while ((ch = (char)fgetc((FILE@)pf)) != EOF){
+		str[i] = ch;
+		i++;
+	}
+	str[i+1] = '\0';
+	
+	close((int)pf);
+	
+	printf( "## CIFRARIO DI CESARE ## \nDato caricato: %s \n", str);
+	
+	// Crypt
+	printf("Crypt: ");
+	for (int i=0;str[i]!='\0';i++){
+		crypt[i] = (str[i] - 64 + (CriptoKey)) % 26+64;
+		printf("%c",crypt[i]);
+	}
+	printf("\n");
+	
+	// Decrypt
+	printf("Decrypt: ");
+	for (i=0;crypt[i]!=0;i++){
+		crypt[i] = ((crypt[i] -64) + 26-(CriptoKey)) % 26+64;
+		printf("%c",crypt[i]);
+	}
+	printf("\n");
+	
+	return 0;
+}
