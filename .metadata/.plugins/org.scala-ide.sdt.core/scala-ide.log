@@ -1,0 +1,36 @@
+2017-09-24 14:46:48,479  WARN [main] - ScalaProject - Project MILESI_MARCO_SCALA_OO has platform default sourceLevel.
+2017-09-24 14:46:48,495  WARN [main] - ScalaProject - Project MILESI_MARCO_SCALA_OO runs on platform default installation.
+2017-09-24 14:46:48,604 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.launching.JREContainerInitializer
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-09-24 14:46:48,714 ERROR [main] - System.err - [org.eclipse.debug.core] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.debug.core.ILaunchesListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-09-24 14:46:50,760  WARN [main] - ScalaProject - Project MILESI_MARCO_SCALA_OO has platform default sourceLevel.
+2017-09-24 14:46:50,776  WARN [main] - ScalaProject - Project MILESI_MARCO_SCALA_OO runs on platform default installation.
+2017-09-24 14:46:53,594  WARN [main] - ScalaProject - Project MILESI_MARCO_SCALA_OO has platform default sourceLevel.
+2017-09-24 14:46:53,595  WARN [main] - ScalaProject - Project MILESI_MARCO_SCALA_OO runs on platform default installation.
+2017-09-24 14:47:03,868  WARN [Worker-5] - ScalaProject - Project MILESI_MARCO_SCALA_OO has platform default sourceLevel.
+2017-09-24 14:47:03,900  WARN [Worker-5] - ScalaProject - Project MILESI_MARCO_SCALA_OO runs on platform default installation.
+2017-09-24 14:48:24,860  WARN [Worker-1] - ScalaProject - Project MILESI_MARCO_SCALA_OO has platform default sourceLevel.
+2017-09-24 14:48:24,860  WARN [Worker-1] - ScalaProject - Project MILESI_MARCO_SCALA_OO runs on platform default installation.
+2017-09-24 14:48:35,512  WARN [Worker-11] - ScalaProject - Project MILESI_MARCO_SCALA_OO has platform default sourceLevel.
+2017-09-24 14:48:35,512  WARN [Worker-11] - ScalaProject - Project MILESI_MARCO_SCALA_OO runs on platform default installation.
+2017-09-24 14:48:42,888 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-09-24 14:48:42,904 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-09-24 14:48:42,904 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-09-24 14:48:42,904 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-09-24 14:48:46,722 ERROR [Worker-11] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-09-24 14:48:46,800 ERROR [Worker-11] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]

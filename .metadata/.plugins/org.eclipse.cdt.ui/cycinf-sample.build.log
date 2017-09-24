@@ -1,0 +1,12 @@
+14:34:18 **** Auto Build of project cycinf-sample ****
+make -k all 
+mkdir -p .cych
+rm -f .cych/cvars
+touch .cych/start-stamp
+cyclone-inf --inf --nomerge --ovfat -detailedlocation  sample.cyc || (a=$?; rm -f .cych/start-stamp; exit $a)
+/bin/sh: cyclone-inf: command not found
+make: *** [cycinf.mk:34: .cych/sample.cyc] Error 127
+make: Target 'all' not remade because of errors.
+
+14:34:19 Build Finished (took 1s.111ms)
+
