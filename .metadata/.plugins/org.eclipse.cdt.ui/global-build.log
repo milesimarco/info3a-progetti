@@ -1,0 +1,23 @@
+12:04:29 **** Rebuild of configuration Debug for project MILESI_MARCO_CPP ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Studente.o" "..\\src\\Studente.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Dipendente.o" "..\\src\\Dipendente.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Persona.o" "..\\src\\Persona.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MILESI_MARCO_CPP.o" "..\\src\\MILESI_MARCO_CPP.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lista.o" "..\\src\\Lista.cpp" 
+..\src\Lista.cpp: In member function 'void Lista::etaMedia()':
+..\src\Lista.cpp:26:32: error: 'mediaEtaStudenti' was not declared in this scope
+    i += mediaEtaStudenti(it,eta);
+                                ^
+12:05:17 **** Incremental Build of configuration Debug for project MILESI_MARCO_CPP ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\StudenteDipendente.o" "..\\src\\StudenteDipendente.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lista.o" "..\\src\\Lista.cpp" 
+..\src\Lista.cpp: In member function 'void Lista::etaMedia()':
+..\src\Lista.cpp:26:21: error: 'media' was not declared in this scope
+    i += media(it,eta);
+                     ^
+12:05:34 **** Incremental Build of configuration Debug for project MILESI_MARCO_CPP ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lista.o" "..\\src\\Lista.cpp" 
+g++ -o MILESI_MARCO_CPP.exe "src\\Dipendente.o" "src\\Lista.o" "src\\MILESI_MARCO_CPP.o" "src\\Persona.o" "src\\Studente.o" "src\\StudenteDipendente.o" 
